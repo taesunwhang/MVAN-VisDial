@@ -100,7 +100,7 @@ class DataUtils(object):
 if __name__ == '__main__':
     data_utils = DataUtils()
 
-    # single_text_path = "/mnt/raid5/taesun/data/VisDial/visdial_1.0_text/visdial_1.0_single_text_%s.hdf5"
-    multi_text_path = "/mnt/raid5/taesun/data/VisDial/visdial_1.0_text/visdial_0.9_multi_text_%s.hdf5"
+    # single_text_path = "data/visdial_1.0_text/visdial_1.0_single_text_%s.hdf5"
+    multi_text_path = "data/visdial_1.0_text/visdial_1.0_multi_text_%s.hdf5"
 
     data_utils.build_h5_data(multi_text_path)
